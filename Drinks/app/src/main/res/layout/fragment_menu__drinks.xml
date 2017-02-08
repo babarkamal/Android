@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="-19dp"
+    android:background="@drawable/q"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    tools:context="com.example.android.drinks.MainActivity">">
+    <Button
+            android:id="@+id/squash"
+            android:layout_width="180dp"
+            android:layout_marginTop="45dp"
+            android:onClick="placeOrder"
+            android:layout_height="wrap_content"
+            android:text="Squash"
+            android:layout_marginLeft="100dp"
+            android:textStyle="italic" />
+    <Button
+            android:id="@+id/pina"
+            android:layout_width="180dp"
+            android:layout_marginTop="65dp"
+            android:onClick="placeOrder"
+            android:layout_height="wrap_content"
+            android:text="Pinacolada"
+            android:layout_marginLeft="100dp"
+            android:textStyle="italic" />
+
+    <Button
+            android:id="@+id/coctail"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Cocktail"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="100dp"
+            android:onClick="placeorder1"
+            android:textStyle="italic"/>
+
+        <Button
+
+            android:id="@+id/lemon"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Lemonade"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="45dp"
+            android:textStyle="italic"/>
+        <Button
+
+            android:id="@+id/russ"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Ruspberry"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="45dp"
+            android:textStyle="italic"/>
+
+
+
+
+
+</LinearLayout>
+
+
